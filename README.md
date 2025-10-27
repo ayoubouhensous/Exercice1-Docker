@@ -186,19 +186,6 @@ L’option `-d` (detached mode) permet d’exécuter le conteneur en arrière-pl
 
 ````
 
----
-
-✅ **Instructions pour GitHub** :  
-
-1. Dans ton projet, crée un fichier `README.md`.  
-2. Copie-colle le Markdown ci-dessus dedans.  
-3. Ajoute tes images dans le dossier `ex1/` (comme dans ton LaTeX).  
-4. Commit et push sur ton dépôt :  
-```bash
-git add README.md ex1/*
-git commit -m "Ajout du compte-rendu TP Docker"
-git push origin main
-````
 
 ---
 
