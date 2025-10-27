@@ -1,0 +1,36 @@
+# Exercice 1 - Découverte de Docker
+# Auteur : Ayoub Ouhensous
+# Date : 27/10/2025
+
+# 1. Vérifier que Docker est bien installé et démarré
+docker --version
+docker info
+
+# 2. Exécuter le premier conteneur avec l’image hello-world
+docker run hello-world
+
+# 3. Télécharger l’image nginx:alpine sans la lancer
+docker pull nginx:alpine
+
+# 4. Lister toutes les images présentes sur le système
+docker images
+
+# 5. Lancer un conteneur nginx en arrière-plan sur le port 8080
+docker run -d -p 8080:80 --name mynginx nginx:alpine
+
+# 6. Vérifier l’accès au serveur web dans le navigateur
+# (Ouvrir le navigateur et aller sur http://localhost:8080)
+
+# 7. Afficher les logs du conteneur nginx
+docker logs mynginx
+
+# 8. Lister tous les conteneurs (en cours et arrêtés)
+docker ps -a
+
+# 9. Arrêter et supprimer le conteneur nginx
+docker stop mynginx
+docker rm mynginx
+
+# 10. Nettoyer les images inutilisées
+docker image prune -a
+
