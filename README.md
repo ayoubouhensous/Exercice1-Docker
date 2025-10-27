@@ -1,6 +1,6 @@
 
 
-# Compte-rendu du TP DevOps/MLOps
+# Exercice 1 — Découverte de Docker
 
 **Auteur :** Ayoub Ouhensous  
 **Date :** 27/10/2025  
